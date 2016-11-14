@@ -1,0 +1,22 @@
+{
+  "name": "KRPhotoCompose",
+  "version": "0.1.0",
+  "summary": "A short description of KRPhotoCompose.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/KRPhotoCompose",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Kyle Ryan": "kylrya@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/KRPhotoCompose.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "KRPhotoCompose/Classes/**/*"
+}

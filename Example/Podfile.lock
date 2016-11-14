@@ -1,0 +1,16 @@
+PODS:
+  - KRPhotoCompose (0.1.0)
+
+DEPENDENCIES:
+  - KRPhotoCompose (from `../`)
+
+EXTERNAL SOURCES:
+  KRPhotoCompose:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KRPhotoCompose: 256944dc504140287ad1c22ed33e0fd6120e72b1
+
+PODFILE CHECKSUM: 213d15286ebd8c1b670276a72d4ccfcfe671de4c
+
+COCOAPODS: 1.1.1

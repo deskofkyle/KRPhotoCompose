@@ -1,0 +1,6 @@
+framework module KRPhotoCompose {
+  umbrella header "KRPhotoCompose-umbrella.h"
+
+  export *
+  module * { export * }
+}
