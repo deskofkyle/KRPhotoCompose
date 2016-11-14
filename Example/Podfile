@@ -1,7 +1,9 @@
 use_frameworks!
+pod 'PBJVision'
 
 target 'KRPhotoCompose_Example' do
   pod 'KRPhotoCompose', :path => '../'
+  
 
   target 'KRPhotoCompose_Tests' do
     inherit! :search_paths

@@ -17,21 +17,6 @@ struct Model {
     var height: Double!
     
     /**
-     For images in the project. Easily readable
-     
-     - PhotoIconPath: For streets or trails.
-     - CameraIconPath: For long journeys.
-     - CaptureIconPath: For casual trips around town.
-     - FlipCameraIconPath: For general-purpose transportation.
-     */
-    enum Images: String {
-        case PhotoIconPath = "Photo-Icon"
-        case CameraIconPath = "Camera-Icon"
-        case CaptureIconPath = "Capture-Icon"
-        case FlipCameraIconPath = "Flip-Camera-Icon"
-    }
-    
-    /**
      Manages the cells displayed in the main controller's collection view
      
      - Library: Handles the cell that shows an image from the library.

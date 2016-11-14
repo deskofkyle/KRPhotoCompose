@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "71FBFF9D6F87829E158E4E16348434643D4646DC",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "D900EDF7497340862982753F766365B3C542D2DD" : 9223372036854775807,
+    "71FBFF9D6F87829E158E4E16348434643D4646DC" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "0FF7E3FE-32CE-478D-81B1-82504B5C66A9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "D900EDF7497340862982753F766365B3C542D2DD" : "",
+    "71FBFF9D6F87829E158E4E16348434643D4646DC" : "KRPhotoCompose\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "KRPhotoCompose",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Example\/KRPhotoCompose.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:kylry\/KRPhotoCompose.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "71FBFF9D6F87829E158E4E16348434643D4646DC"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:kylry\/KRPhotoCompose.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D900EDF7497340862982753F766365B3C542D2DD"
+    }
+  ]
+}
