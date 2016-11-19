@@ -7,43 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0CFCCD0ED5024706AECA10D94D2F3B88 /* MainViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 709F6B6CD3C483BBB39E80CFFDB4DC63 /* MainViewController.xib */; };
+		01F1D1B22DBB9FD4C0E4FAD312C339E1 /* KRPhotoComposeView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 5DA6C3F72680E29A11FD1CB28718DE29 /* KRPhotoComposeView.xib */; };
 		0D304997C3F77F7E307709655509668E /* Pods-KRPhotoCompose_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF3E9D90B6E6967275586E9128BE98C /* Pods-KRPhotoCompose_Example-dummy.m */; };
 		1267017A8B52829E637CC0C188197C5F /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = E2F454F4C5D1D605B011E4FE6188285A /* Shader.fsh */; };
+		153EDEB6DA1888CEBA95BFCD39BC0E42 /* KRPhotoComposeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DD8C63CCA4A6911737024CFE429B89 /* KRPhotoComposeView.swift */; };
 		1622EF49BF120581BCFA677617B85387 /* PBJVision-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B6BCCBA7EBCA5772D9C366F172EAACC /* PBJVision-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		16736730E8C25473C7FB6D8DBDC8C215 /* PBJGLProgram.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DDE6CAB7584D88BC8DBE7B1AC1B3E1E /* PBJGLProgram.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19DE03CDA74C4108AF1353EC1F267386 /* LibraryButtonCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10DB4C349A1A910EC5EB02D5146C95A /* LibraryButtonCollectionViewCell.swift */; };
 		1DB6754B9B627DD9885D4C460AC09D6E /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE282830D057944F337BC987DE2B60C3 /* CoreVideo.framework */; };
 		2318D8EC0C5B3A6E8C45CAAEEDA17B29 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EB4C7FAB31D1F3DC827F584CA593D30 /* CoreMedia.framework */; };
+		26DFCF74D0C25B8F3C6E814BB7311592 /* CameraCollectionViewCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = BAEB8FE3741F596F53F3598E951BF0D9 /* CameraCollectionViewCell.xib */; };
 		434ED00718F722F3C933F56745231C4E /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 13EA931D3D1EE7A800E90632D7CDDB95 /* Shader.vsh */; };
+		450443B39A10ADAFFF6BD69D86BE3EF2 /* PhotoCollectionViewCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = DD79A09305EAC793D5828AFBEE0E405F /* PhotoCollectionViewCell.xib */; };
 		4DC0622D70F70E7DCDCDEB1D41875AB0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C6C364B7C4591443B236BEA337B34A2 /* Foundation.framework */; };
-		500040B28C6342400152AD81EC9D510A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C6C364B7C4591443B236BEA337B34A2 /* Foundation.framework */; };
+		5D9E41642756A18E24F49186B94AA551 /* PhotoButtonCollectionViewCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = DB67717A4F52C36B186FE5BB1F6FAAC4 /* PhotoButtonCollectionViewCell.xib */; };
 		5DCDE29C1DAD102AF45F500119B5D679 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACB6C41A9EBDE44B6AFC8031B3285D2A /* CoreImage.framework */; };
 		63772DB3A82A5021C6A7216FAC174A42 /* PBJGLProgram.m in Sources */ = {isa = PBXBuildFile; fileRef = C7CF1BE1284AC465B9743C273A39EAD9 /* PBJGLProgram.m */; };
 		669B109CFB4CF1C2D5E0668AA4180D29 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5CCEC0F4E117BC34950537ADFCEB7A9 /* OpenGLES.framework */; };
-		6E3E01351DDA84BD0004B085 /* PhotoButtonCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3E01331DDA84BD0004B085 /* PhotoButtonCollectionViewCell.swift */; };
-		6E3E01391DDA84D90004B085 /* LibraryButtonCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3E01371DDA84D90004B085 /* LibraryButtonCollectionViewCell.swift */; };
-		6E3E013C1DDA84E40004B085 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3E013A1DDA84E40004B085 /* PhotoCollectionViewCell.swift */; };
-		6E3E013F1DDA84EC0004B085 /* CameraCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3E013D1DDA84EC0004B085 /* CameraCollectionViewCell.swift */; };
+		6AFCFB6F1D1E9BB6469DE05393A6EFA5 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F576F2DA901FA0A0215D4FAAE83F7F /* PhotoCollectionViewCell.swift */; };
+		6D82DF6C187C71B28CA036710ED1012F /* LibraryButtonCollectionViewCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = EF98E1B6C1D1723BEFB0FB4B6B83944E /* LibraryButtonCollectionViewCell.xib */; };
 		6E4D32C77F80E23EFCCAFD7B3E05AC57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C6C364B7C4591443B236BEA337B34A2 /* Foundation.framework */; };
 		6EBD634C28BD68812163EA26E25928F4 /* PBJVisionUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 99D42E68B63E465CFF111F62DDD48700 /* PBJVisionUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		779B65F53C56187964C5C846B70CFCCA /* PBJVisionUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 02C87E2471D8C48F93B1C45DA5F78AEA /* PBJVisionUtilities.m */; };
-		7BC30709FF7E1091FCAD6500799E0BB4 /* KRPhotoCompose-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FA419B4CF4037A1732D14FC106915EB /* KRPhotoCompose-dummy.m */; };
 		7BF2FFBB91096B91900E1BD7E3A6CF1D /* Pods-KRPhotoCompose_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A77238AB66392029C0996D6302502C0 /* Pods-KRPhotoCompose_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		834D5D32D949BB5FF64986CDCC8ECD6C /* KRPhotoCompose-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FA419B4CF4037A1732D14FC106915EB /* KRPhotoCompose-dummy.m */; };
 		877C9E5D2D6AF582306948B0F9479D48 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF036BF32951C528559FB5A40E2EECD7 /* UIKit.framework */; };
 		8AF148CF99EB58B629F57F60F023EA1E /* PBJVision.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D79E58C1C760CD9CE43A5EAB63C3E8F /* PBJVision.m */; };
+		8C8138005EA14E32E3A200E97261991E /* PhotoButtonCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7684252AA97191FF8FFC289756AEC7DC /* PhotoButtonCollectionViewCell.swift */; };
+		8CA389C1DBFA01266A61B22904B97DCA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C6C364B7C4591443B236BEA337B34A2 /* Foundation.framework */; };
 		90079C1D188F976A7CBF8A273B9B1BEC /* Pods-KRPhotoCompose_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 683B647A54239707D6547D78B236A5B8 /* Pods-KRPhotoCompose_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		96DAD216D30D487CA7A11305CB673D38 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F62886AB18D27A849ED425488F10F7 /* MainViewController.swift */; };
+		9C9BDA14F7CF708CFA9390E6317F513B /* KRPhotoCompose-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D5ACD9089806B9F4558C9DBCD95245AA /* KRPhotoCompose-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AB33942A6179655045BF600A6939D5C7 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C30DEF27AC2C590D2ED2BC3E1A1EE512 /* ImageIO.framework */; };
 		AFA646409CD0A7319D0F0EB5757A4095 /* PBJMediaWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 315A80F4023C18AF6314A1D9058703DF /* PBJMediaWriter.m */; };
 		B02582CF086627D69ABC50924467B3D3 /* Pods-KRPhotoCompose_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 36FD309F720531F15D1A9C279F72738A /* Pods-KRPhotoCompose_Tests-dummy.m */; };
 		B18CF416510287EF7C66F5D07C0A693A /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CCEDBB44343BE1C1DA884EE685E32EA /* MobileCoreServices.framework */; };
+		B558E2DD299339F72738942873100F78 /* CameraCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049E06F6EB2122B5FA6AB08459F46DC6 /* CameraCollectionViewCell.swift */; };
+		C4183DE2E14B699F9A544421226C457F /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA36C5068120B87ABFBF8D825DFF4DC8 /* Model.swift */; };
 		C686D7DAE6641940899513CC9839C696 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C6C364B7C4591443B236BEA337B34A2 /* Foundation.framework */; };
 		C6F72A9F7AF09FC5426EC1CBB5A4ADED /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C27A09245860C8CE40ACAFA34FEC021 /* AVFoundation.framework */; };
-		CBBA403727BCD7E4B21FCE7B3A5F317B /* KRPhotoCompose-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D5ACD9089806B9F4558C9DBCD95245AA /* KRPhotoCompose-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D334B41ACFADAED018BBF12F733080AE /* PBJVision.h in Headers */ = {isa = PBXBuildFile; fileRef = 23A261E98ED8671D0AF83096E4DE1142 /* PBJVision.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DD7BDB40F1E69DD7F2BD6A5883314A44 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58E6CF37A048ED2490461AA5F56F1D9D /* CoreGraphics.framework */; };
 		E37A215B3915409A40E7C9F9F1B06369 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67C49F053CF33EDDB4D60F974090040E /* QuartzCore.framework */; };
-		E67236A9F9589889BCBA17E821099CD0 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA929E7C619BAAA3F0AFA748539CADDF /* Model.swift */; };
 		EBF3E632E29DDFC9E97B76392624566D /* PBJVision-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 858B6A15DD0111F9B28F7D1EAB91420E /* PBJVision-dummy.m */; };
 		F7D2C17DECEBCDFC2CB0D5FD11E8ECE2 /* PBJMediaWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = DD53FC7CB60F73A3AEC2965EF696A56B /* PBJMediaWriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -60,47 +64,42 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8CAE0D8C82E96767A1751A987CA38B5A;
+			remoteGlobalIDString = AC61BEEDD8E230DE3FA98B8EFCEDDFF5;
 			remoteInfo = KRPhotoCompose;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		02C87E2471D8C48F93B1C45DA5F78AEA /* PBJVisionUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PBJVisionUtilities.m; path = Source/PBJVisionUtilities.m; sourceTree = "<group>"; };
+		049E06F6EB2122B5FA6AB08459F46DC6 /* CameraCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CameraCollectionViewCell.swift; sourceTree = "<group>"; };
 		12DC759C4E70808F13EF0962827F33E1 /* Pods-KRPhotoCompose_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KRPhotoCompose_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		13EA931D3D1EE7A800E90632D7CDDB95 /* Shader.vsh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.glsl; name = Shader.vsh; path = Source/Shaders/Shader.vsh; sourceTree = "<group>"; };
-		18491C602FCF8E0B0308793B50D2EF0B /* Pods_KRPhotoCompose_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KRPhotoCompose_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		13EA931D3D1EE7A800E90632D7CDDB95 /* Shader.vsh */ = {isa = PBXFileReference; includeInIndex = 1; name = Shader.vsh; path = Source/Shaders/Shader.vsh; sourceTree = "<group>"; };
+		18491C602FCF8E0B0308793B50D2EF0B /* Pods_KRPhotoCompose_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KRPhotoCompose_Tests.framework; path = "Pods-KRPhotoCompose_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A7B9BCCD4F8B860DE48F0C1AB45075F /* Pods-KRPhotoCompose_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KRPhotoCompose_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1CCEDBB44343BE1C1DA884EE685E32EA /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
-		1D32A0E22843A2EBEE9920750436822D /* KRPhotoCompose.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = KRPhotoCompose.modulemap; sourceTree = "<group>"; };
+		1D32A0E22843A2EBEE9920750436822D /* KRPhotoCompose.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = KRPhotoCompose.modulemap; sourceTree = "<group>"; };
+		22DD8C63CCA4A6911737024CFE429B89 /* KRPhotoComposeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KRPhotoComposeView.swift; sourceTree = "<group>"; };
 		23A261E98ED8671D0AF83096E4DE1142 /* PBJVision.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PBJVision.h; path = Source/PBJVision.h; sourceTree = "<group>"; };
 		2B6BCCBA7EBCA5772D9C366F172EAACC /* PBJVision-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PBJVision-umbrella.h"; sourceTree = "<group>"; };
 		2E76977E7EC0454FB4C454C799E9FF74 /* Pods-KRPhotoCompose_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KRPhotoCompose_Tests-resources.sh"; sourceTree = "<group>"; };
 		315A80F4023C18AF6314A1D9058703DF /* PBJMediaWriter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PBJMediaWriter.m; path = Source/PBJMediaWriter.m; sourceTree = "<group>"; };
 		36FD309F720531F15D1A9C279F72738A /* Pods-KRPhotoCompose_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KRPhotoCompose_Tests-dummy.m"; sourceTree = "<group>"; };
-		3A296A27CCC023D4E4363FF9A9C4BBCE /* Pods-KRPhotoCompose_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-KRPhotoCompose_Tests.modulemap"; sourceTree = "<group>"; };
+		3A296A27CCC023D4E4363FF9A9C4BBCE /* Pods-KRPhotoCompose_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-KRPhotoCompose_Tests.modulemap"; sourceTree = "<group>"; };
 		4369F6BDE1D4D09399002B4BF194BD48 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4446A5BA97598F9BC05935581369ADD1 /* Pods-KRPhotoCompose_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-KRPhotoCompose_Example.modulemap"; sourceTree = "<group>"; };
+		4446A5BA97598F9BC05935581369ADD1 /* Pods-KRPhotoCompose_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-KRPhotoCompose_Example.modulemap"; sourceTree = "<group>"; };
 		53292A8FEB7B62A5AB46E7BFB55B32C1 /* PBJVision-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PBJVision-prefix.pch"; sourceTree = "<group>"; };
 		54CD7E9BAD459ABD87430790CCE47891 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		58E6CF37A048ED2490461AA5F56F1D9D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		5A4BD29DD3E9150E06C242DADEB59911 /* KRPhotoCompose.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KRPhotoCompose.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A4BD29DD3E9150E06C242DADEB59911 /* KRPhotoCompose.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KRPhotoCompose.framework; path = KRPhotoCompose.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C6C364B7C4591443B236BEA337B34A2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5CF3E9D90B6E6967275586E9128BE98C /* Pods-KRPhotoCompose_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KRPhotoCompose_Example-dummy.m"; sourceTree = "<group>"; };
+		5DA6C3F72680E29A11FD1CB28718DE29 /* KRPhotoComposeView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = KRPhotoComposeView.xib; sourceTree = "<group>"; };
 		5E41E309C099264842FBF5D53D960B0A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		67C49F053CF33EDDB4D60F974090040E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		683B647A54239707D6547D78B236A5B8 /* Pods-KRPhotoCompose_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KRPhotoCompose_Tests-umbrella.h"; sourceTree = "<group>"; };
 		6DDE6CAB7584D88BC8DBE7B1AC1B3E1E /* PBJGLProgram.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PBJGLProgram.h; path = Source/PBJGLProgram.h; sourceTree = "<group>"; };
-		6E3E01331DDA84BD0004B085 /* PhotoButtonCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoButtonCollectionViewCell.swift; sourceTree = "<group>"; };
-		6E3E01341DDA84BD0004B085 /* PhotoButtonCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoButtonCollectionViewCell.xib; sourceTree = "<group>"; };
-		6E3E01371DDA84D90004B085 /* LibraryButtonCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibraryButtonCollectionViewCell.swift; sourceTree = "<group>"; };
-		6E3E01381DDA84D90004B085 /* LibraryButtonCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LibraryButtonCollectionViewCell.xib; sourceTree = "<group>"; };
-		6E3E013A1DDA84E40004B085 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
-		6E3E013B1DDA84E40004B085 /* PhotoCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoCollectionViewCell.xib; sourceTree = "<group>"; };
-		6E3E013D1DDA84EC0004B085 /* CameraCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraCollectionViewCell.swift; sourceTree = "<group>"; };
-		6E3E013E1DDA84EC0004B085 /* CameraCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CameraCollectionViewCell.xib; sourceTree = "<group>"; };
 		6F2DA853114F035BC59DB65BC7FCD4ED /* Pods-KRPhotoCompose_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KRPhotoCompose_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		709F6B6CD3C483BBB39E80CFFDB4DC63 /* MainViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		7684252AA97191FF8FFC289756AEC7DC /* PhotoButtonCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PhotoButtonCollectionViewCell.swift; sourceTree = "<group>"; };
 		775F6ABAEDCFAAF1C23D40C9C4557EF6 /* Pods-KRPhotoCompose_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KRPhotoCompose_Example.release.xcconfig"; sourceTree = "<group>"; };
 		7D79E58C1C760CD9CE43A5EAB63C3E8F /* PBJVision.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PBJVision.m; path = Source/PBJVision.m; sourceTree = "<group>"; };
 		7FA419B4CF4037A1732D14FC106915EB /* KRPhotoCompose-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KRPhotoCompose-dummy.m"; sourceTree = "<group>"; };
@@ -109,7 +108,7 @@
 		8C27A09245860C8CE40ACAFA34FEC021 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
 		8EB4C7FAB31D1F3DC827F584CA593D30 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreMedia.framework; sourceTree = DEVELOPER_DIR; };
 		925BBCAD08BA8416550024DF20676221 /* Pods-KRPhotoCompose_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KRPhotoCompose_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		99D42E68B63E465CFF111F62DDD48700 /* PBJVisionUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PBJVisionUtilities.h; path = Source/PBJVisionUtilities.h; sourceTree = "<group>"; };
 		9E1D912CE021C636AAB352D1DB29FBDC /* KRPhotoCompose-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KRPhotoCompose-prefix.pch"; sourceTree = "<group>"; };
 		A1BE08F29E5BF9B819203B7D9A04F31D /* Pods-KRPhotoCompose_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KRPhotoCompose_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -117,27 +116,40 @@
 		ACB6C41A9EBDE44B6AFC8031B3285D2A /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreImage.framework; sourceTree = DEVELOPER_DIR; };
 		AE282830D057944F337BC987DE2B60C3 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreVideo.framework; sourceTree = DEVELOPER_DIR; };
 		AFE67073304C6C853E4B468AF57C77D9 /* Pods-KRPhotoCompose_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KRPhotoCompose_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B10DB4C349A1A910EC5EB02D5146C95A /* LibraryButtonCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LibraryButtonCollectionViewCell.swift; sourceTree = "<group>"; };
 		B248FA207CFF5E754BF46ECF64E23D6B /* Pods-KRPhotoCompose_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KRPhotoCompose_Example-frameworks.sh"; sourceTree = "<group>"; };
 		B2FCCF00BF23DCFD193D62BD1C1EF0A3 /* PBJVision.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PBJVision.xcconfig; sourceTree = "<group>"; };
 		B67607E73A080547B1A12532CCE9E99C /* Pods-KRPhotoCompose_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KRPhotoCompose_Example-resources.sh"; sourceTree = "<group>"; };
+		BAEB8FE3741F596F53F3598E951BF0D9 /* CameraCollectionViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = CameraCollectionViewCell.xib; sourceTree = "<group>"; };
 		BE05E3BCD038DDF3901A03CB25E67FBE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C30DEF27AC2C590D2ED2BC3E1A1EE512 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
 		C7CF1BE1284AC465B9743C273A39EAD9 /* PBJGLProgram.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PBJGLProgram.m; path = Source/PBJGLProgram.m; sourceTree = "<group>"; };
+		CA36C5068120B87ABFBF8D825DFF4DC8 /* Model.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		D1527AE3E59848EF4228C574A9CFCE65 /* Pods-KRPhotoCompose_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KRPhotoCompose_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D2F576F2DA901FA0A0215D4FAAE83F7F /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
 		D5ACD9089806B9F4558C9DBCD95245AA /* KRPhotoCompose-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KRPhotoCompose-umbrella.h"; sourceTree = "<group>"; };
-		D5F62886AB18D27A849ED425488F10F7 /* MainViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		D9127C0FC5F99544341D3EB8A327B901 /* Pods_KRPhotoCompose_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KRPhotoCompose_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9127C0FC5F99544341D3EB8A327B901 /* Pods_KRPhotoCompose_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KRPhotoCompose_Example.framework; path = "Pods-KRPhotoCompose_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB67717A4F52C36B186FE5BB1F6FAAC4 /* PhotoButtonCollectionViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = PhotoButtonCollectionViewCell.xib; sourceTree = "<group>"; };
 		DD53FC7CB60F73A3AEC2965EF696A56B /* PBJMediaWriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PBJMediaWriter.h; path = Source/PBJMediaWriter.h; sourceTree = "<group>"; };
+		DD79A09305EAC793D5828AFBEE0E405F /* PhotoCollectionViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = PhotoCollectionViewCell.xib; sourceTree = "<group>"; };
 		DF036BF32951C528559FB5A40E2EECD7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		E2F454F4C5D1D605B011E4FE6188285A /* Shader.fsh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.glsl; name = Shader.fsh; path = Source/Shaders/Shader.fsh; sourceTree = "<group>"; };
+		E2F454F4C5D1D605B011E4FE6188285A /* Shader.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = Shader.fsh; path = Source/Shaders/Shader.fsh; sourceTree = "<group>"; };
 		E5CCEC0F4E117BC34950537ADFCEB7A9 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/OpenGLES.framework; sourceTree = DEVELOPER_DIR; };
-		E8B9655AEB934263AA2D08146860A167 /* PBJVision.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PBJVision.modulemap; sourceTree = "<group>"; };
+		E8B9655AEB934263AA2D08146860A167 /* PBJVision.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = PBJVision.modulemap; sourceTree = "<group>"; };
+		EF98E1B6C1D1723BEFB0FB4B6B83944E /* LibraryButtonCollectionViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = LibraryButtonCollectionViewCell.xib; sourceTree = "<group>"; };
 		F9191206170DC2459425536C918703A6 /* KRPhotoCompose.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KRPhotoCompose.xcconfig; sourceTree = "<group>"; };
-		FA8D05BE9BD2EDE6804453FEE9DA0B7F /* PBJVision.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PBJVision.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FA929E7C619BAAA3F0AFA748539CADDF /* Model.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		FA8D05BE9BD2EDE6804453FEE9DA0B7F /* PBJVision.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PBJVision.framework; path = PBJVision.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0FC14A8027A905340E3F916041B00A4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CA389C1DBFA01266A61B22904B97DCA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		642A455D30A15A71BC3A7CD1FA1F5105 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -172,14 +184,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FC28CB6291B29F8F42434B4029F7FCD1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				500040B28C6342400152AD81EC9D510A /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -197,6 +201,7 @@
 				51F2F078B87A0F79232B4774523CBCF2 /* Resources */,
 				50F325E37E82B81CEC559D3CC44CB5B7 /* Support Files */,
 			);
+			name = PBJVision;
 			path = PBJVision;
 			sourceTree = "<group>";
 		};
@@ -220,16 +225,6 @@
 				12805A68C101D65297FB01075F29CC5B /* PBJVision */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		47FFF9C6E64C79E7ED9F6FA98EEA2612 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				6E3E01311DDA849E0004B085 /* Model */,
-				6E3E01361DDA84C40004B085 /* View */,
-				6E3E01321DDA84A40004B085 /* Controller */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		4C6CD746D98A6D7DF94C931D1731B66A /* Pods-KRPhotoCompose_Example */ = {
@@ -281,46 +276,6 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		65FF77E6005A0D19CABCBE3578A176CE /* KRPhotoCompose */ = {
-			isa = PBXGroup;
-			children = (
-				47FFF9C6E64C79E7ED9F6FA98EEA2612 /* Classes */,
-			);
-			path = KRPhotoCompose;
-			sourceTree = "<group>";
-		};
-		6E3E01311DDA849E0004B085 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				FA929E7C619BAAA3F0AFA748539CADDF /* Model.swift */,
-			);
-			name = Model;
-			sourceTree = "<group>";
-		};
-		6E3E01321DDA84A40004B085 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				D5F62886AB18D27A849ED425488F10F7 /* MainViewController.swift */,
-				709F6B6CD3C483BBB39E80CFFDB4DC63 /* MainViewController.xib */,
-			);
-			name = Controller;
-			sourceTree = "<group>";
-		};
-		6E3E01361DDA84C40004B085 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				6E3E01331DDA84BD0004B085 /* PhotoButtonCollectionViewCell.swift */,
-				6E3E01341DDA84BD0004B085 /* PhotoButtonCollectionViewCell.xib */,
-				6E3E01371DDA84D90004B085 /* LibraryButtonCollectionViewCell.swift */,
-				6E3E01381DDA84D90004B085 /* LibraryButtonCollectionViewCell.xib */,
-				6E3E013A1DDA84E40004B085 /* PhotoCollectionViewCell.swift */,
-				6E3E013B1DDA84E40004B085 /* PhotoCollectionViewCell.xib */,
-				6E3E013D1DDA84EC0004B085 /* CameraCollectionViewCell.swift */,
-				6E3E013E1DDA84EC0004B085 /* CameraCollectionViewCell.xib */,
-			);
-			name = View;
-			sourceTree = "<group>";
-		};
 		7D82A576673A0E6FB5CAB0FC71584C31 /* Pods-KRPhotoCompose_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -349,6 +304,25 @@
 				9868AC73BA21328DBF08D3146E8ACA83 /* Products */,
 				B3A500D48892C92FA894B3D796C8FEC1 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		819865FBD2DB21F66CD059479D38BDC7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				049E06F6EB2122B5FA6AB08459F46DC6 /* CameraCollectionViewCell.swift */,
+				BAEB8FE3741F596F53F3598E951BF0D9 /* CameraCollectionViewCell.xib */,
+				22DD8C63CCA4A6911737024CFE429B89 /* KRPhotoComposeView.swift */,
+				5DA6C3F72680E29A11FD1CB28718DE29 /* KRPhotoComposeView.xib */,
+				B10DB4C349A1A910EC5EB02D5146C95A /* LibraryButtonCollectionViewCell.swift */,
+				EF98E1B6C1D1723BEFB0FB4B6B83944E /* LibraryButtonCollectionViewCell.xib */,
+				CA36C5068120B87ABFBF8D825DFF4DC8 /* Model.swift */,
+				7684252AA97191FF8FFC289756AEC7DC /* PhotoButtonCollectionViewCell.swift */,
+				DB67717A4F52C36B186FE5BB1F6FAAC4 /* PhotoButtonCollectionViewCell.xib */,
+				D2F576F2DA901FA0A0215D4FAAE83F7F /* PhotoCollectionViewCell.swift */,
+				DD79A09305EAC793D5828AFBEE0E405F /* PhotoCollectionViewCell.xib */,
+			);
+			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		82F2C9B027D6F986611783FAF130B62D /* iOS */ = {
@@ -383,7 +357,7 @@
 		A85EAB12F7AC65A63710E6DD97212322 /* KRPhotoCompose */ = {
 			isa = PBXGroup;
 			children = (
-				65FF77E6005A0D19CABCBE3578A176CE /* KRPhotoCompose */,
+				BE08D93BE3BD91F01A5EBE49669F1FF9 /* KRPhotoCompose */,
 				16DC8F3EEE8B050A785E038D39830A73 /* Support Files */,
 			);
 			name = KRPhotoCompose;
@@ -397,6 +371,15 @@
 				7D82A576673A0E6FB5CAB0FC71584C31 /* Pods-KRPhotoCompose_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BE08D93BE3BD91F01A5EBE49669F1FF9 /* KRPhotoCompose */ = {
+			isa = PBXGroup;
+			children = (
+				819865FBD2DB21F66CD059479D38BDC7 /* Classes */,
+			);
+			name = KRPhotoCompose;
+			path = KRPhotoCompose;
 			sourceTree = "<group>";
 		};
 		EB57DDB3388FBC701046A1E93218737F /* Frameworks */ = {
@@ -430,19 +413,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2CEC8A1300F2A24C7BF34A29782C191B /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CBBA403727BCD7E4B21FCE7B3A5F317B /* KRPhotoCompose-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		DA78F33E8738C1B8A2D899E58C51D3B1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7BF2FFBB91096B91900E1BD7E3A6CF1D /* Pods-KRPhotoCompose_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4E2D4065C3766B402131E3989E0D7B3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C9BDA14F7CF708CFA9390E6317F513B /* KRPhotoCompose-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,13 +467,13 @@
 			productReference = 18491C602FCF8E0B0308793B50D2EF0B /* Pods_KRPhotoCompose_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		8CAE0D8C82E96767A1751A987CA38B5A /* KRPhotoCompose */ = {
+		AC61BEEDD8E230DE3FA98B8EFCEDDFF5 /* KRPhotoCompose */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BE5898545365BFC509E1E7CAA5E2BEA8 /* Build configuration list for PBXNativeTarget "KRPhotoCompose" */;
+			buildConfigurationList = BB7AA8EA33DBDBF2E465F69E297FA88B /* Build configuration list for PBXNativeTarget "KRPhotoCompose" */;
 			buildPhases = (
-				7C9539342E400DE421421EB145E9A798 /* Sources */,
-				FC28CB6291B29F8F42434B4029F7FCD1 /* Frameworks */,
-				2CEC8A1300F2A24C7BF34A29782C191B /* Headers */,
+				8093D8510184F988E387E20732A3E8EC /* Sources */,
+				0FC14A8027A905340E3F916041B00A4C /* Frameworks */,
+				E4E2D4065C3766B402131E3989E0D7B3 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -541,7 +524,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8CAE0D8C82E96767A1751A987CA38B5A /* KRPhotoCompose */,
+				AC61BEEDD8E230DE3FA98B8EFCEDDFF5 /* KRPhotoCompose */,
 				0249F1CCD6CA272BB3BF7B840F509A3D /* PBJVision */,
 				C853C70215E666CEB4F5E33664CCC94B /* Pods-KRPhotoCompose_Example */,
 				288A79FD9EB3D6FF8761865116EF584A /* Pods-KRPhotoCompose_Tests */,
@@ -574,18 +557,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7C9539342E400DE421421EB145E9A798 /* Sources */ = {
+		8093D8510184F988E387E20732A3E8EC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BC30709FF7E1091FCAD6500799E0BB4 /* KRPhotoCompose-dummy.m in Sources */,
-				6E3E013F1DDA84EC0004B085 /* CameraCollectionViewCell.swift in Sources */,
-				96DAD216D30D487CA7A11305CB673D38 /* MainViewController.swift in Sources */,
-				6E3E01391DDA84D90004B085 /* LibraryButtonCollectionViewCell.swift in Sources */,
-				6E3E01351DDA84BD0004B085 /* PhotoButtonCollectionViewCell.swift in Sources */,
-				6E3E013C1DDA84E40004B085 /* PhotoCollectionViewCell.swift in Sources */,
-				0CFCCD0ED5024706AECA10D94D2F3B88 /* MainViewController.xib in Sources */,
-				E67236A9F9589889BCBA17E821099CD0 /* Model.swift in Sources */,
+				B558E2DD299339F72738942873100F78 /* CameraCollectionViewCell.swift in Sources */,
+				26DFCF74D0C25B8F3C6E814BB7311592 /* CameraCollectionViewCell.xib in Sources */,
+				834D5D32D949BB5FF64986CDCC8ECD6C /* KRPhotoCompose-dummy.m in Sources */,
+				153EDEB6DA1888CEBA95BFCD39BC0E42 /* KRPhotoComposeView.swift in Sources */,
+				01F1D1B22DBB9FD4C0E4FAD312C339E1 /* KRPhotoComposeView.xib in Sources */,
+				19DE03CDA74C4108AF1353EC1F267386 /* LibraryButtonCollectionViewCell.swift in Sources */,
+				6D82DF6C187C71B28CA036710ED1012F /* LibraryButtonCollectionViewCell.xib in Sources */,
+				C4183DE2E14B699F9A544421226C457F /* Model.swift in Sources */,
+				8C8138005EA14E32E3A200E97261991E /* PhotoButtonCollectionViewCell.swift in Sources */,
+				5D9E41642756A18E24F49186B94AA551 /* PhotoButtonCollectionViewCell.xib in Sources */,
+				6AFCFB6F1D1E9BB6469DE05393A6EFA5 /* PhotoCollectionViewCell.swift in Sources */,
+				450443B39A10ADAFFF6BD69D86BE3EF2 /* PhotoCollectionViewCell.xib in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -617,7 +604,7 @@
 		B8A8D86B466A694513984A23D1106F6D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = KRPhotoCompose;
-			target = 8CAE0D8C82E96767A1751A987CA38B5A /* KRPhotoCompose */;
+			target = AC61BEEDD8E230DE3FA98B8EFCEDDFF5 /* KRPhotoCompose */;
 			targetProxy = 7DB143DAA02C4B859AB608326E326B29 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -757,6 +744,38 @@
 			};
 			name = Debug;
 		};
+		4931297621A015D3102658F5CE14E517 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9191206170DC2459425536C918703A6 /* KRPhotoCompose.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KRPhotoCompose/KRPhotoCompose-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KRPhotoCompose/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KRPhotoCompose/KRPhotoCompose.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = KRPhotoCompose;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		6096C5E9ADDF5026C7D7684612433798 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 12DC759C4E70808F13EF0962827F33E1 /* Pods-KRPhotoCompose_Example.debug.xcconfig */;
@@ -827,38 +846,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		735B638AF2580F18912C8A0565AC358C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F9191206170DC2459425536C918703A6 /* KRPhotoCompose.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/KRPhotoCompose/KRPhotoCompose-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/KRPhotoCompose/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/KRPhotoCompose/KRPhotoCompose.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = KRPhotoCompose;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -944,7 +931,7 @@
 			};
 			name = Debug;
 		};
-		D910234E119B3DDC9D32882CE5CA3FB4 /* Debug */ = {
+		E3DB5A58C38830C386079F47B661AE86 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F9191206170DC2459425536C918703A6 /* KRPhotoCompose.xcconfig */;
 			buildSettings = {
@@ -1016,11 +1003,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BE5898545365BFC509E1E7CAA5E2BEA8 /* Build configuration list for PBXNativeTarget "KRPhotoCompose" */ = {
+		BB7AA8EA33DBDBF2E465F69E297FA88B /* Build configuration list for PBXNativeTarget "KRPhotoCompose" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D910234E119B3DDC9D32882CE5CA3FB4 /* Debug */,
-				735B638AF2580F18912C8A0565AC358C /* Release */,
+				E3DB5A58C38830C386079F47B661AE86 /* Debug */,
+				4931297621A015D3102658F5CE14E517 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
